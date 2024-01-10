@@ -4,12 +4,14 @@ import sun_cloud from '../assets/Screenshot 2024-01-08 165649.png'
 import templogo from '../assets/Screenshot 2024-01-08 171202.png'
 import windlogo from '../assets/Screenshot 2024-01-08 171701.png'
 
+
 function Weather() {
 
     const [value, setValue] = useState("")
     const [weatherInfo, setWeatherInfo] = useState({})
 
     const api_key = "eb9c176eb91c1741edbdaa14d1504ac2"
+
     const fatchData = async (e) => {
         e.preventDefault()
         if (value === "") return 0
