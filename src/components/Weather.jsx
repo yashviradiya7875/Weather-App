@@ -10,7 +10,7 @@ function Weather() {
     const [value, setValue] = useState("")
     const [weatherInfo, setWeatherInfo] = useState({})
 
-    const api_key = "eb9c176eb91c1741edbdaa14d1504ac2"
+    const api_key = "YOUR_API_KEY"
 
     const fatchData = async (e) => {
         e.preventDefault()
